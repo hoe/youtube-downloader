@@ -1,11 +1,10 @@
-# from pytube import YouTube
-import youtube_dl
 import eyed3 as metadata
+from io import BytesIO
+from PIL import Image
+import youtube_dl
 import subprocess
 import argparse
 import requests
-from io import BytesIO
-from PIL import Image
 import os
 
 def main():
